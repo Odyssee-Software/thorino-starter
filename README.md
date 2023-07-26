@@ -18,6 +18,31 @@ J'ai également utilisé un compilateur TypeScript pour convertir le code TypeSc
 
 J'ai enfin utilisé un compilateur Webpack pour empaqueter mon code et mes ressources dans un seul fichier exécutable. Cela me permet de créer une application de bureau autonome qui peut être exécutée sans avoir besoin d'un environnement d'exécution.
 
+### Installer les modules NodeJS
+
+```shell
+npm install
+```
+
+### Mettre à jour Neutralino
+
+```shell
+neu update
+```
+
+
+### Lancer Neutralino
+
+```shell
+neu run
+```
+
+### Construire l'application pour les différentes plateformes
+
+```shell
+neu build
+```
+
 # Conclusion
 
 Dans ce projet, j'ai utilisé NeutralinoJS pour développer une application de bureau. J'ai également mis en place un environnement permettant de compiler du JSX/TSX. J'ai trouvé que NeutralinoJS est un framework puissant et facile à utiliser qui est idéal pour le développement d'applications de bureau.
