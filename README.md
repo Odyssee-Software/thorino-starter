@@ -64,9 +64,10 @@ erDiagram
     Thorino-Project ||--|{ NeutralinoJs : build-with
 ```
 
-<div style="background-color: orange; color: white; border: 1px solid black; padding: 10px">
-⚠️ instruction pour windows
-</div>
+<aside>
+⚠️ Instruction supplémentaire pour windows
+
+</aside>
 
 # Conclusion
 
