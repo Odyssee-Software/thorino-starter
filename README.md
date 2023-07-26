@@ -60,7 +60,7 @@ erDiagram
     Thorino-webview-app ||--|{ Neutralino-lib : has-module
     Thorino-webview-app ||--o{ Thorium-CLI : build-with-in-public
 
-    Thorino-Project ||--|{ Thorino-webview-app : has-module
+    Thorino-Project ||--|{ Thorino-webview-app : has-webview-interface
     Thorino-Project ||--|{ NeutralinoJs : build-with
 ```
 
