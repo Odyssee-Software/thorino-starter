@@ -78,7 +78,7 @@ erDiagram
 <aside>
 ⚠️ Instructions supplémentaires pour Windows
 
-* Vérifiez que la version de binaryVersion contenue dans neutralino.config.json est égale ou supérieure à 4.13.0. Cette version garantit le bon fonctionnement dans les environnements Windows 10 et 11.
+* Vérifiez que la version de `binaryVersion` contenue dans `neutralino.config.json` est égale ou supérieure à 4.13.0. Cette version garantit le bon fonctionnement dans les environnements Windows 10 et 11.
 
 * Vérifiez que le runtime webview2 est installé. Disponible à l'adresse : https://developer.microsoft.com/en-us/microsoft-edge/webview2/.
 
