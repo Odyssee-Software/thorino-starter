@@ -82,7 +82,7 @@ erDiagram
 
 * Vérifiez que le runtime webview2 est installé. Disponible à l'adresse : https://developer.microsoft.com/en-us/microsoft-edge/webview2/.
 
-* Vous risquez d'obtenir un écran blanc. La raison en est que l'accès à localhost à partir d'un contexte UWP est désactivé par défaut. Exécutez la commande suivante avec les privilèges d'administrateur dans l'invite de commande pour résoudre ce problème : CheckNetIsolation.exe LoopbackExempt -a -n="Microsoft.Win32WebViewHost_cw5n1h2txyewy"
+* Vous risquez d'obtenir un écran blanc. La raison en est que l'accès à localhost à partir d'un contexte UWP est désactivé par défaut. Exécutez la commande suivante avec les privilèges d'administrateur dans l'invite de commande pour résoudre ce problème : `CheckNetIsolation.exe LoopbackExempt -a -n="Microsoft.Win32WebViewHost_cw5n1h2txyewy"`
 
 </aside>
 
