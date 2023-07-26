@@ -64,6 +64,10 @@ erDiagram
     Thorino-Project ||--|{ NeutralinoJs : build-with
 ```
 
+<div style="background-color: orange; color: white; border: 1px solid black; padding: 10px">
+⚠️ instruction pour windows
+</div>
+
 # Conclusion
 
 Dans ce projet, j'ai utilisé NeutralinoJS pour développer une application de bureau. J'ai également mis en place un environnement permettant de compiler du JSX/TSX. J'ai trouvé que NeutralinoJS est un framework puissant et facile à utiliser qui est idéal pour le développement d'applications de bureau.
