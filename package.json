@@ -1,0 +1,16 @@
+{
+  "name": "Thorino Starter",
+  "version": "1.0.0",
+  "description": "An empty Neutralinojs - Thorium app, extend as you wish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ../thorium/thorium-cli --entryDir=./src --outputDir=./public/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neutralinojs/lib": "^3.11.0",
+    "typescript": "^5.1.6"
+  }
+}

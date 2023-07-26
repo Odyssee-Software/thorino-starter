@@ -1,0 +1,15 @@
+.HelloWorld{
+  position:absolute;
+  display: grid;
+  height: stretch;
+  width: stretch;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Button{
+  padding: 10px 20px;
+}
