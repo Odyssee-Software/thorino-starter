@@ -18,6 +18,17 @@ J'ai également utilisé un compilateur TypeScript pour convertir le code TypeSc
 
 J'ai enfin utilisé un compilateur Webpack pour empaqueter mon code et mes ressources dans un seul fichier exécutable. Cela me permet de créer une application de bureau autonome qui peut être exécutée sans avoir besoin d'un environnement d'exécution.
 
+<aside>
+⚠️ Prérequis
+
+* Installer Neutralino globalement
+
+```shell
+npm install -g @neutralinojs/neu
+```
+
+</aside>
+
 # Installation , Développement , Production
 
 ### Installer les modules NodeJS
@@ -65,7 +76,13 @@ erDiagram
 ```
 
 <aside>
-⚠️ Instruction supplémentaire pour windows
+⚠️ Instructions supplémentaires pour Windows
+
+* Vérifiez que la version de binaryVersion contenue dans neutralino.config.json est égale ou supérieure à 4.13.0. Cette version garantit le bon fonctionnement dans les environnements Windows 10 et 11.
+
+* Vérifiez que le runtime webview2 est installé. Disponible à l'adresse : https://developer.microsoft.com/en-us/microsoft-edge/webview2/.
+
+* Vous risquez d'obtenir un écran blanc. La raison en est que l'accès à localhost à partir d'un contexte UWP est désactivé par défaut. Exécutez la commande suivante avec les privilèges d'administrateur dans l'invite de commande pour résoudre ce problème : CheckNetIsolation.exe LoopbackExempt -a -n="Microsoft.Win32WebViewHost_cw5n1h2txyewy"
 
 </aside>
 
