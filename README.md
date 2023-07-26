@@ -45,6 +45,25 @@ neu run
 neu build
 ```
 
+```mermaid
+erDiagram
+    Thorium ||--|{ Thorium-Framework : contains
+    Thorium-Framework ||--|{ Thorium-Core : contains
+    Thorium-Framework ||--|{ Thorium-States : contains
+
+    Thorium-CLI }|..|{ Webpack : has
+    Webpack }|..|{ dev-server : serve-with
+    Webpack }|..|{ babel : has
+    babel ||--o{ thorium-transform-plugin : use
+
+    Thorino-webview-app ||--|{ Thorium : has-module
+    Thorino-webview-app ||--|{ Neutralino-lib : has-module
+    Thorino-webview-app ||--o{ Thorium-CLI : build-with-in-public
+
+    Thorino-Project ||--|{ Thorino-webview-app : has-module
+    Thorino-Project ||--|{ NeutralinoJs : build-with
+```
+
 # Conclusion
 
 Dans ce projet, j'ai utilisé NeutralinoJS pour développer une application de bureau. J'ai également mis en place un environnement permettant de compiler du JSX/TSX. J'ai trouvé que NeutralinoJS est un framework puissant et facile à utiliser qui est idéal pour le développement d'applications de bureau.
