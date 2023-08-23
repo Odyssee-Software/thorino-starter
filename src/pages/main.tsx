@@ -1,4 +1,4 @@
-import { PageRouter ,Page } from "../thorium";
+import { PageRouter ,Page } from "thorium-framework";
 import { HelloWorld } from "../components/helloWorld";
 
 export default <PageRouter>
